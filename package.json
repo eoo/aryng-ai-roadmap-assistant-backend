@@ -1,0 +1,21 @@
+{
+  "name": "aryng-chat-bot",
+  "version": "1.0.0",
+  "description": "ai chat bot for aryng",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tarungarhwal@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.5",
+    "@supabase/supabase-js": "^2.49.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "markdown-pdf": "^11.0.0",
+    "mongodb": "^6.16.0",
+    "openai": "^4.96.0"
+  }
+}
